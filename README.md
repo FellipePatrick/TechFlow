@@ -14,10 +14,7 @@ A calculadora de juros compostos é um sistema simples que permite aos usuários
 
 - Cálculo do montante final com base em:
   - Capital inicial
-  - Taxa de juros (%)
-  - Período de aplicação
-- Opção de cálculo com diferentes períodos (mensal, anual, etc.)
-- Interface simples e intuitiva para interagir com o programa
+  - Taxa de juros (%)  - Período de aplicação
 - Código modular para fácil adaptação e escalabilidade
 
 ---
@@ -45,4 +42,38 @@ periodo = 12
 #### Saída:
 ```
 Montante final: R$ 1795.86
+```
+
+## 🔧 Como Rodar o Código Localmente
+
+Pré-requisitos
+Certifique-se de ter o Python 3.8+ instalado em sua máquina. Você também precisará do pip para gerenciar dependências e do pytest para rodar os testes.
+
+### Passo a Passo
+
+#### 1. Clone o repositório
+```
+git clone https://github.com/FellipePatrick/TechFlow.git
+cd TechFlow
+```
+#### 2. Crie e ative um ambiente virtual
+```
+python3 -m venv venv
+venv\Scripts\activate
+```
+
+#### 3. Instale o pytest
+```
+pip install pytest
+```
+
+#### 4. Rode o projeto
+```
+cd .\src\
+python main.py
+```
+
+#### 5. Rode os testes
+```
+pytest
 ```
